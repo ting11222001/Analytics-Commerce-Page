@@ -13,7 +13,7 @@ const Navbar = (props: Props) => {
   return (
     <div className='text-white flex justify-between items-center max-w-[1024px] mx-auto h-24 px-4'>
       <h1 className='w-full text-3xl font-bold text-blue-500'>DATA.</h1>
-      <div className='flex hidden'>
+      <div className='hidden md:flex'>
         <a href="" className='p-4'>Home</a>
         <a href="" className='p-4'>Company</a>
         <a href="" className='p-4'>Resources</a>
@@ -22,7 +22,7 @@ const Navbar = (props: Props) => {
       </div>
 
       {/* Hamburger */}
-      <div onClick={handleNavbar}>
+      <div onClick={handleNavbar} className='block md:hidden'>
         {navbar ? (
           <AiOutlineClose size={20} />
         ) : (
