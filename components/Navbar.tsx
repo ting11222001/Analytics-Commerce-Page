@@ -22,12 +22,12 @@ const Navbar = (props: Props) => {
 
       {/* Mobile menu */}
       <div className='fixed top-0 left-0 w-[60%] h-full border-r border-r-gray-900 pt-24'>
-        <div className='flex flex-col bg-black'>
-          <a href="" className='p-4 uppercase'>Home</a>
-          <a href="" className='p-4 uppercase'>Company</a>
-          <a href="" className='p-4 uppercase'>Resources</a>
-          <a href="" className='p-4 uppercase'>About</a>
-          <a href="" className='p-4 uppercase'>Contact</a>
+        <div className='flex flex-col bg-black p-4'>
+          <a href="" className='p-4 uppercase border-b border-r-gray-600'>Home</a>
+          <a href="" className='p-4 uppercase border-b border-r-gray-600'>Company</a>
+          <a href="" className='p-4 uppercase border-b border-r-gray-600'>Resources</a>
+          <a href="" className='p-4 uppercase border-b border-r-gray-600'>About</a>
+          <a href="" className='p-4 uppercase border-b border-r-gray-600'>Contact</a>
         </div>
       </div>
 
