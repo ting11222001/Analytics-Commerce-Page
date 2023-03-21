@@ -13,7 +13,7 @@ type Props = {}
 
 const Footer = (props: Props) => {
     return (
-        <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 mx-4'>
+        <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 mx-4' id='Contact'>
             <div>
                 <h1 className='w-full text-3xl font-bold text-blue-500'>DATA.</h1>
                 <p className='py-4'>Monitor and gain insights from your data.</p>
